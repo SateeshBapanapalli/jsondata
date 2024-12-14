@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>header</h1>
+    <p class="para">para</p>
+    <p class="paras">paragraph</p>
+    <p class="">para</p>
+    <p>para</p>
+
+    <script>
+
+        const ele = document.querySelector(".paras")
+        ele.style.background = "black"; 
+        ele.style.color = "red"; 
+        console.log(ele.innerHTML)
+        
+
+        const element = document.querySelector(".para")
+        element.innerHTML = `<img width='50%' height='50%' src='https://aomedia.org/assets/images/blog/parrot-png.png' alt='text'>`
+
+        element.style.background = 'red'
+        element.style.img.borderradius = 'solid white 100px'
+        console.log(element)
+    </script>
+</body>
+</html>
+
